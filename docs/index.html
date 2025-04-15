@@ -1,23 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <meta charset="UTF-8" />
+  <title>Grupo 01</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonte Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tema padrão do Docsify -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <!-- Tema escuro/claro -->
+  <link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme"
+    type="text/css"
+  />
+  <!-- Ícones Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  <style>
+    /* Fonte Poppins aplicada apenas aos títulos */
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4,
+    .markdown-section h5,
+    .markdown-section h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Ícone padrão (expand_more) para itens com submenu */
+    .sidebar ul li:has(> ul) > a::after,
+    .sidebar ul li:has(> ul) > p::after {
+      content: 'keyboard_arrow_down';
+      font-family: 'Material Symbols Outlined';
+      font-size: 24px;
+      margin-left: 8px;
+      vertical-align: middle;
+      transition: all 0.4s ease;
+    }
+
+    /* Ícone alterado (keyboard_arrow_up) quando submenu estiver aberto */
+    .sidebar ul li:has(> ul).open > a::after,
+    .sidebar ul li:has(> ul).open > p::after {
+      content: 'keyboard_arrow_up';
+    }
+    
+  </style>
 </head>
 <body>
   <div id="app"></div>
+  
   <script>
     window.$docsify = {
       loadSidebar: true,
-      name: 'Repositorio Template',
-      repo: 'https://github.com/UnBArqDsw2025-1-Turma01/RepositorioTemplateEntrega2'
+      name: 'GRUPO 01',
+      repo: 'https://github.com/UnBArqDsw2025-1-Turma01/RepositorioTemplateEntrega2',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Buscar',
+        noData: 'Nenhum resultado!',
+        depth: 2
+      },
+      plugins: [window.DocsifySidebarCollapse]
     }
+    
   </script>
-  <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
 </body>
 </html>
