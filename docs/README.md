@@ -17,11 +17,58 @@ Demais diretrizes constam no Moodle.
 **Número do Grupo**: XX<br>
 **Entrega**: 02<br>
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+## 👥 Integrantes do Grupo
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/arthurrochamoreira">
+          <img style="border-radius: 50%;" src="https://github.com/arthurrochamoreira.png" width="130px;" alt=""/><br />
+          <sub><b>Altino Arthur Rocha Moreira</b></sub><br />
+          <sub>Matrícula: 211030658</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/daniel-de-sousa">
+          <img style="border-radius: 50%;" src="https://github.com/daniel-de-sousa.png" width="130px;" alt=""/><br />
+          <sub><b>Daniel dos Santos Barros de Sousa</b></sub><br />
+          <sub>Matrícula: 211030980</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/DeM4rcio">
+          <img style="border-radius: 50%;" src="https://github.com/DeM4rcio.png" width="130px;" alt=""/><br />
+          <sub><b>Márcio Henrique</b></sub><br />
+          <sub>Matrícula: 221039497</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/MatheusHenrickSantos">
+          <img style="border-radius: 50%;" src="https://github.com/MatheusHenrickSantos.png" width="130px;" alt=""/><br />
+          <sub><b>Matheus Henrick Dutra dos Santos</b></sub><br />
+          <sub>Matrícula: 190018101</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/weslley17w">
+          <img style="border-radius: 50%;" src="https://github.com/weslley17w.png" width="130px;" alt=""/><br />
+          <sub><b>Weslley Barros</b></sub><br />
+          <sub>Matrícula: 200044567</sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/gravelylara">
+          <img style="border-radius: 50%;" src="https://github.com/gravelylara.png" width="130px;" alt=""/><br />
+          <sub><b>Lara Giuliana Lima dos Santos</b></sub><br />
+          <sub>Matrícula: 190058048</sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ## Sobre 
 Contextualize, usando referências, links, e outros materiais como fontes.
