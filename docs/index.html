@@ -2,74 +2,81 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Grupo 01</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo 01</title>
 
-  <!-- Fonte Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonte Roboto Mono com pesos 400, 600 e 700 -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <!-- Tema padrão do Docsify -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
-  <!-- Tema escuro/claro -->
+  <!-- Tema escuro/claro para Docsify -->
   <link 
     rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme"
     type="text/css"
   />
-  <!-- Ícones Material Symbols -->
+
+  <!-- Ícones Google Material Symbols -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
   <style>
-    /* Fonte Poppins aplicada apenas aos títulos */
+    body {
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    /* Títulos com fonte mais forte */
     .markdown-section h1,
     .markdown-section h2,
     .markdown-section h3,
     .markdown-section h4,
     .markdown-section h5,
     .markdown-section h6 {
-      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
     }
 
-    /* Ícone padrão (expand_more) para itens com submenu */
-    .sidebar ul li:has(> ul) > a::after,
-    .sidebar ul li:has(> ul) > p::after {
+    /* Ícones para menus com subníveis */
+    .sidebar ul li:has(> ul) > a::before,
+    .sidebar ul li:has(> ul) > p::before {
       content: 'keyboard_arrow_down';
       font-family: 'Material Symbols Outlined';
       font-size: 24px;
       margin-left: 8px;
       vertical-align: middle;
-      transition: all 0.4s ease;
+      transition: transform 0.3s ease;
     }
 
-    /* Ícone alterado (keyboard_arrow_up) quando submenu estiver aberto */
-    .sidebar ul li:has(> ul).open > a::after,
-    .sidebar ul li:has(> ul).open > p::after {
+    .sidebar ul li:has(> ul).open > a::before,
+    .sidebar ul li:has(> ul).open > p::before {
       content: 'keyboard_arrow_up';
     }
-    
   </style>
 </head>
 <body>
   <div id="app"></div>
-  
+
   <script>
     window.$docsify = {
-      loadSidebar: true,
-      sidebar: {open: true},
       name: 'GRUPO 01',
       repo: 'https://github.com/UnBArqDsw2025-1-Turma01/2025.1-T01-_G1_Embarcado_Entrega_02',
+      loadSidebar: true,
+      sidebar: {
+        open: true
+      },
       search: {
-                depth      : 3,
-                noData     : 'Sem resultados',
-                placeholder: 'Buscar'
-            } 
-    }
-    
+        depth: 3,
+        noData: 'Sem resultados',
+        placeholder: 'Buscar'
+      }
+    };
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+
+  <!-- Scripts do Docsify e plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.normalize"></script>
 </body>
 </html>
