@@ -1,8 +1,10 @@
-# 2025.1(T01)_G1_Embarcado_Entrega_02
+## 👵🧓 Projeto CuideMe
 
-**Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: 01<br>
-**Entrega**: 02<br>
+📘 Este repositório documenta todos os artefatos produzidos pelo **Grupo 01** da disciplina **ARQUITETURA E DESENHO DE SOFTWARE (FGA0208)**, oferecida pela **Faculdade do Gama (FGA/UnB)** no **1º semestre de 2025**. Sendo documentado a **2º Entrega**.
+
+<center>
+<img src="assets/Logo_repo.png" width="700px;" alt=""/><br />
+</center>
 
 ## 👥 Integrantes do Grupo
 
@@ -58,18 +60,20 @@
 ---
 
 ## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+O projeto tem como objetivo desenvolver um **Sistema de monitoramento de quedas** para pessoas idosas ou para pessoas com mobilidade reduzida, sendo composto por:
 
-## Screenshots da Segunda Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+- 👕 Um **wearable com sensores IMU** (ex: BNO086) para detectar quedas;
+- 📱 Uma **aplicação (app/web)** para cuidadores acompanharem o status da pessoa monitorada e receberem **notificações em tempo real**.
 
-## Há algo a ser executado?
+O que torna esse projeto de fato via;vel e essencial de ser implemetado, é que de acordo com o Ministério da Saúde, cerca de 40% dos idosos com 80 anos ou mais sofrem quedas todos os anos (BRASIL, 2022) [1]. Isso por que quedas durante a velhice são comuns e podem vim atraladas a diferços fatores, então ter um meio rápido de indentificação de quedas, ajudara no rápido amparo dessas pessoas idosas.
 
-( ) SIM
 
-( ) NÃO
+## Referências
 
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+[1] BRASIL. Ministério da Saúde. [*Todos os anos, 40% dos idosos com 80 anos ou mais sofrem quedas*]((https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2022/10/todos-os-anos-40-dos-idosos-com-80-anos-ou-mais-sofrem-quedas)). 10 out. 2022. Acesso em: 11 abr. 2025.
 
-## Informações Complementares 
-Quaisquer outras informações adicionais podem ser descritas nessa seção.
+## Histórico de versões:
+
+| Versão | Data       | Descrição | Autor(es) | Revisor(es) | Descrição da Revisão |
+| :----: | :--------: | :-------: | :-------: | :---------: | :--------------------: |
+| `1.0`  | 09/05/2025 | Criação da git page | [Márcio Henrique](https://github.com/DeM4rcio) | [Daniel Sousa](https://github.com/daniel-de-sousa) | Verificação da integriade de conteúdo da gitpage |
